@@ -1,0 +1,103 @@
+JavaScript 
+
+JavaScript is a scripting or programming language that allows you to implement complex
+features on web pages — every time a web page does more than just sit there and display
+static information for you to look at — displaying timely content updates, interactive maps,
+animated 2D/3D graphics . Its syntax is based on the Java and C languages javascript 
+building blocks conditional statements, loops, functions, and events
+
+  Syntax
+  -------
+    var x = 5; // Declaring a variable (old way)
+    let y = 10; // Declaring a variable with block scope
+    const z = 15; // Declaring a constant
+
+Variable
+Variables in JavaScript are declared using one of three keywords: let, const, or var.
+   In JavaScript, variables are used to store and manipulate data.
+   Here's the syntax for declaring variables:
+     var variableName = value;
+   Variables declared with var are function-scoped or globally-scoped.
+   They can be re-declared and updated within their scope.Variable types are not explicitly declared
+
+Variable declaration Syntax
+  *var variableName = value;
+  *let variableName = value;
+  *const constantName = value;
+DataType
+
+ In Javascript, there are five basic, or primitive, types of data. The five most basic
+ types of data are strings, numbers, booleans, undefined, and null.
+   Integer (int) It is the most common numeric data type used to store numbers
+   String (str or text) ...
+   Boolean (bool) ...
+   Array. ...
+
+Operator
+Operators are the symbols between values that allow different operations like addition,
+subtraction, multiplication, and more.
+     *The Assignment Operator = assigns values
+
+     *The Addition Operator + adds values
+
+     *The Multiplication Operator * multiplies values
+
+     *The Comparison Operator > compares values
+
+String
+String method returns a string containing the source text segment which was used to define the
+function. JavaScript calls the toString method automatically when a Function is to be represented as
+a text value,
+    Strings are for storing text
+    Strings are written with quotes
+
+Function
+A function in JavaScript is similar to a procedure—a set of statements that performs a
+task or calculates a value, but for a procedure to qualify as a function, it should take
+some input and return an output where there is some obvious relationship between the input
+and the output.
+ Function Return
+   When JavaScript reaches a return statement, the function will stop executing.
+   If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
+   Functions often compute a return value. The return value is "returned" back to the "caller":
+
+Flow of Control statement
+Control flow statements, however, break up the flow of execution by employing
+decision making, looping, and branching, enabling your program to conditionally
+execute particular blocks of code.
+   If, Else 
+   For
+   While
+Loop in JavaScript
+Loops are used in JavaScript to perform repeated tasks based on a condition.
+Conditions typically return true or false . A loop will continue running until
+the defined condition returns false 
+   for loop
+   while loop
+  
+Array
+An array in JavaScript is a type of global object that is used to store data.
+Arrays consist of an ordered collection or list containing zero or more data types,
+and use numbered indices starting from 0 to access specific items
+  *int arr[n]; 
+
+Event
+An event is an action that occurs as per the user's instruction as input and gives
+the output in response. We can consider different types of inputs, such as mouse clicks,
+button presses, and when users press tab and text box change.
+
+Location object
+JavaScript Location is a built-in Interface (object type) which represents the location
+(URL) of the object to which it is attached. Both the Window object and the Document object have this property
+
+Form object
+Form object is a Browser object of JavaScript used to access an HTML form.
+If a user wants to access all forms within a document then he can use the forms array.
+The form object is actually a property of document object that is uniquely created by the
+browser for each form present in a document.
+
+Form Validation
+JavaScript provides facility to validate the form on the client-side so data processing
+will be faster than server-side validation. Most of the web developers prefer JavaScript
+form validation. Through JavaScript, we can validate name, password, email, date, mobile
+numbers and more fields. 
