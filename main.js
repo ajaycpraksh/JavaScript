@@ -2,7 +2,7 @@
 let x =5;
 let y=5;
 let z=x+y;
-console.log( +z);
+console.log();
 document.getElementById("hello").innerHTML=z;
 
 //variable
@@ -15,8 +15,18 @@ document.getElementById("let").innerHTML=Fruits
 const cars ="BMW"
 document.getElementById("const").innerHTML=cars
 //datatypes
-let length =16;
+let length = 16;
 document.getElementById("numbers").innerHTML=length
+//booleans 
+document.getElementById("true").innerHTML= Boolean(10<9)
+
+//operators arithmetic
+let a = 3;
+let b = (100+50) * a;
+document.getElementById("Arithmetic").innerHTML=b
+//comparison 
+document.getElementById("comparison").innerHTML=2<12;
+
 //string
 let color ="yellow"
 document.getElementById("strings").innerHTML=color
@@ -76,4 +86,12 @@ function displayDate() {
 //loaction object
 function goToWebsite(){
     window.location.href="https://www.ucartz.com/";
+}
+//Form validation
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
 }
