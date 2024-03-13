@@ -94,4 +94,50 @@ function validateForm() {
     alert("Name must be filled out");
     return false;
   }
+
 }
+//if statement
+
+if(10<14){
+  document.getElementById("if").innerHTML="Have a good day";
+}
+//else statement
+if(10<15){
+  display="true";
+}else{
+  display="false"
+}
+document.getElementById("else").innerHTML=display;
+//if..else
+if(100<20){
+  printe="true";
+
+}else if(100>20){
+  printe="false";
+}
+else{
+printe="error";
+}
+document.getElementById("elseif").innerHTML=printe;
+
+let fruit="mango"
+switch(fruit){
+    case "apple":
+      fruit='apple';
+      break;
+    case "mango": 
+      fruit='mango';
+      break;
+    case "pineapple":
+      fruit='pineapple';
+      break;
+    default:
+      fruit='jackfruit';
+      break;
+    
+}
+document.getElementById("switch").innerHTML=fruit;
+
+
+
+

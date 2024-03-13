@@ -48,32 +48,27 @@ String
 String method returns a string containing the source text segment which was used to define the
 function. JavaScript calls the toString method automatically when a Function is to be represented as
 a text value,
-    Strings are for storing text
-    Strings are written with quotes
 
-Function
-A function in JavaScript is similar to a procedure—a set of statements that performs a
-task or calculates a value, but for a procedure to qualify as a function, it should take
-some input and return an output where there is some obvious relationship between the input
-and the output.
- Function Return
-   When JavaScript reaches a return statement, the function will stop executing.
-   If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
-   Functions often compute a return value. The return value is "returned" back to the "caller":
+ Function 
+When JavaScript reaches a return statement, the function will stop executing.
+If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
+Functions often compute a return value. The return value is "returned" back to the "caller":
 
 Flow of Control statement
-Control flow statements, however, break up the flow of execution by employing
-decision making, looping, and branching, enabling your program to conditionally
-execute particular blocks of code.
-   If, Else 
-   For
-   While
+Control Flow is a fundamental concept in programming that allows you to dictate how your code runs under different conditions or until a certain condition is met.
+if : it is a block of code to be  executed, if a specified condition is true
+else : it is a block of code to be  executed, if the same condition is false
+else if :to spesify anew condition to test, if the first condition is false
+switch : to spesify many alternative blocks of  code to be executed
+   
 Loop in JavaScript
 Loops are used in JavaScript to perform repeated tasks based on a condition.
 Conditions typically return true or false . A loop will continue running until
 the defined condition returns false 
-   for loop
-   while loop
+ for  :loops through a block of code a number of times
+while : loops through a block of code while a specified condition is true
+do/while : also loops through a block of code while a specified condition is true
+ 
   
 Array
 An array in JavaScript is a type of global object that is used to store data.
